@@ -4,14 +4,14 @@ class Scene2 extends Phaser.Scene {
     }
     preload()
     {
-        this.load.tilemapTiledJSON('nivel1', 'assets/lvl1.json');
-        this.load.image('Tileset', 'Assets/Tileset.png');
-        this.load.image('Fondo', 'Assets/Fondo2.png');
-        this.load.image('bala', 'Assets/Kunai.png');
-        this.load.spritesheet('Ninja', 'Assets/Ninja.png', { frameWidth: 232, frameHeight: 439 });
-        this.load.spritesheet('Caminar', 'Assets/Run.png', { frameWidth: 363, frameHeight: 440 });
-        this.load.spritesheet('Ataque', 'Assets/Throw.png', { frameWidth: 377, frameHeight: 440 });
-        this.load.spritesheet('Saltar', 'Assets/Jump.png', { frameWidth: 362, frameHeight: 483 });
+        this.load.tilemapTiledJSON('nivel1', './Assets/lvl1.json');
+        this.load.image('Tileset', './Assets/Tileset.png');
+        this.load.image('Fondo', './Assets/Fondo2.png');
+        this.load.image('bala', './Assets/Kunai.png');
+        this.load.spritesheet('Ninja', './Assets/Ninja.png', { frameWidth: 232, frameHeight: 439 });
+        this.load.spritesheet('Caminar', './Assets/Run.png', { frameWidth: 363, frameHeight: 440 });
+        this.load.spritesheet('Ataque', './Assets/Throw.png', { frameWidth: 377, frameHeight: 440 });
+        this.load.spritesheet('Saltar', './Assets/Jump.png', { frameWidth: 362, frameHeight: 483 });
         
     };
     create() 
